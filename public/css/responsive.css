@@ -1,0 +1,127 @@
+
+@media only screen and (max-width: 600px) {
+
+.flaticon-bird:before {	
+	cursor: pointer;
+	font-size: 40px;
+	padding-left: 10PX;
+	
+	
+}
+	.navbar-expand-lg .navbar-nav .nav-link{
+	padding-right:0px;
+
+	display: inline-block;
+	color:#fff;
+}
+.navbar-light .navbar-brand{
+	color:#fff;
+	font-size: 24px;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	
+	/* for slider */
+	
+}
+	.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+	.carousel-item {
+  height: 90vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+	.floting_div{
+	position: absolute;
+    height: 420px;
+	width: 360px;
+    display:inline-block;
+	left: 50%;
+		
+	margin:-200px;
+	margin-top:20px;
+    z-index:5;
+	top: 0;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+	  display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+	 -moz-margin:-180px;
+	
+		
+}
+	.card{
+height: 420px;
+margin-top: auto;
+margin-bottom: auto;
+margin: 0 auto;
+width: 360px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width:990px) {
+	
+.flaticon-bird:before {	
+	cursor: pointer;
+	font-size: 50px;
+	padding-left: 10PX;
+	
+	
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right:0px;
+    display: inline-block;
+    color: #fff;
+}
+.navbar-nav .nav-link {
+    font-size: 20px;
+    word-spacing: normal;
+}
+	
+
+} 
+
+
+@media only screen and (max-width: 350px) {
+	.floting_div{
+	position: absolute;
+    height: 420px;
+	width: 300px;
+    display:inline-block;
+	left: 50%;
+		
+	margin:-150px;
+	margin-top:20px;
+    z-index:5;
+	top: 0;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+	  display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+	 -moz-margin:-180px;
+	
+		
+}
+	.card{
+height: 420px;
+margin-top: auto;
+margin-bottom: auto;
+margin: 0 auto;
+width: 280px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+.custom_option {
+    background-color: #fff;
+    width:233px;
+}
+}
